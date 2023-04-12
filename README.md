@@ -1,6 +1,5 @@
 # Project Management Form using JsonPowerDB
 
-[Documentation Link](https://login2explore.com/jpdb/docs.html)
 
 ### About Project:
 1. The form stores data in the [JsonPowerDB](http://api.login2explore.com:5577/user/index.html) .
@@ -25,3 +24,37 @@
 - It is low level (raw) form of data and is also human readable.
 - It helps developers in faster coding, in-turn reduces development cost.
 ### Illustrations
+  1. **JPDB Dashboard**
+
+![Dashboard](https://github.com/bhavinitalach/JPDB/blob/main/Images/dashboard.png)
+
+2.**Database Records**
+
+![Records](https://github.com/bhavinitalach/JPDB/blob/main/Images/records.png)
+
+3. **Project Management Form**
+
+![Form](https://github.com/bhavinitalach/JPDB/blob/main/Images/Form.png)
+
+### Form functionalities:
+1. Saving data in JPDB.
+2. Updating the records already existing in database.
+3. Resetting the form fields.
+
+### Examples of use:
+
+- **Save Data**
+
+![Save](https://github.com/bhavinitalach/JPDB/blob/main/Images/Save.png)
+
+- **Update Data**
+
+![Update](https://github.com/bhavinitalach/JPDB/blob/main/Images/Update.png)
+
+### Project status: Completed
+
+### Sources: 
+- [Documentation Link](https://login2explore.com/jpdb/docs.html)
+- [YouTube](https://www.youtube.com/@jsonpowerdb9811)
+
+
