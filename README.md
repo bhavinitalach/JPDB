@@ -24,15 +24,15 @@
 - It is low level (raw) form of data and is also human readable.
 - It helps developers in faster coding, in-turn reduces development cost.
 ### Illustrations
-  1. **JPDB Dashboard**
+  **1. JPDB Dashboard**
 
 ![Dashboard](https://github.com/bhavinitalach/JPDB/blob/main/Images/dashboard.png)
 
-2.**Database Records**
+**2. Database Records**
 
 ![Records](https://github.com/bhavinitalach/JPDB/blob/main/Images/records.png)
 
-3. **Project Management Form**
+**3. Project Management Form**
 
 ![Form](https://github.com/bhavinitalach/JPDB/blob/main/Images/Form.png)
 
