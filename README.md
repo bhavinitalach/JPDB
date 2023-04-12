@@ -41,6 +41,15 @@
 2. Updating the records already existing in database.
 3. Resetting the form fields.
 
+### Languages Used:
+ - HTML
+ - CSS
+ - JavaScript
+ - jQuery
+ 
+ ### Database Used: 
+ - JsonPowerDB
+
 ### Examples of use:
 
 - **Save Data**
