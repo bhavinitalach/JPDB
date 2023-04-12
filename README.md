@@ -3,7 +3,7 @@
 [Documentation Link](https://login2explore.com/jpdb/docs.html)
 
 ### About Project:
-1. The form stores data in the database.
+1. The form stores data in the [JsonPowerDB](http://api.login2explore.com:5577/user/index.html) .
 2. There are three control buttons [Save], [Update] and [Reset] at the bottom of the form. On page load or any control button click, an empty form will be displayed and the cursor will remain at the first input field in the form which will have the primary key in the relation. All other fields and buttons will be disabled at this time.
 3. User will enter data in the field having primary key and
     - If the primary key value does NOT exist in the database, [Save] and [Reset] buttons will get enabled and the cursor moves to the next field and allow the user to enter data in the form.
@@ -14,7 +14,10 @@
          + Click on [Update] button to update the data in the database and go to step-2.
          + Click [Reset] to reset the form as per the step-2.
 ### About JsonPowerDB:
-- JsonPowerDB is a Real-time, High Performance, Lightweight and Simple to Use, Rest API based Multi-mode DBMS. JsonPowerDB has ready to use API for Json document DB, RDBMS, Key-value DB, GeoSpatial DB and Time Series DB functionality. JPDB supports and advocates for true serverless and pluggable API development.
+- JsonPowerDB is a Database Server with Developer friendly REST API services. It's a High Performance, Light Weight, Ajax Enabled, Serverless, Simple to Use, Real-time Database.
+- Easy and fast to develop database applications without using any server side programming / scripting or without installing any kind of database.
+- Whether it's a Dynamic Website or a Mobile App or some Data Analytics Portal, the development is real fun and fast. What all you need is a basic understanding of HTML, CSS, Bootstrap, and Javascript.
+Note: Using JsonPowerDB is equally Easy and Fast when used with Server Side programming like Java, .NET, Python or PHP etc.
 ### Benefits of using JsonPowerDB
 - Simplest way to retrieve data in a JSON format.
 - Schema-free, Simple to use, Nimble and In-Memory database.
