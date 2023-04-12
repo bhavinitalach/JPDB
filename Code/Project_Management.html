@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+<head>
+<title>Project Management Form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<script
+src="https://login2explore.com/jpdb/resources/js/0.0.3/jpdb-commons.js"></script>
+
+<style>
+
+div{
+ font-size:medium;
+}
+
+h2{
+    font-weight: bold;
+}
+
+*{
+ box-sizing: border-box;
+ font-family:Arial, Helvetica, sans-serif;
+ margin: 15px 15px 15px 15px;
+ cursor: pointer;
+}
+.container{
+ background-color: rgb(238, 237, 246);
+ padding: 5px 20px 2px 20px;
+ border: 3px solid gray;
+ border-radius: 4px;
+}
+
+#but{
+    padding: 40px;
+}
+input[type="button"]{
+          background-color: darkgreen;
+          color: white;
+          font-weight: bold;
+          font-size: 14px;
+          border: none;
+          padding:  10px 20px; /*or using width, height*/
+          border-radius: 12px ;
+          cursor: grab;
+          margin-right: 10px;
+}
+input[type="button"]:hover{
+    background-color: #4c81af;
+}
+
+input{
+ padding: 4px;
+}
+
+label{
+ font-size: 15px;
+     font-weight:bold ;
+     font-family:Arial, Helvetica, sans-serif;
+}
+ </style>
+
+
+</head>
+<body>
+<div class="container">
+<div class="page-header text-center">
+<h2>Project Management Form</h2>
+</div>
+<form id="prjForm" method="get">
+<div class="form-group">
+<label>Project ID:</label>
+    <input type="text" class="form-control" name="prjId" id="prjId" onchange="getPrj()"
+placeholder="Enter Project ID" required>
+</div>
+<div class="form-group">
+<label for="prjName">Project Name:</label>
+<input type="text" class="form-control" id="prjName"
+placeholder="Enter Project Name" name="prjName">
+</div>
+<div class="form-group">
+    <label for="prjasgn">Assigned To:</label>
+    <input type="text" class="form-control" id="prjasgn"
+    placeholder="Enter Assigned To whom" name="prjasgn">
+    </div>
+    
+    <div class="form-group">
+    <label for="prjDate">Assignment Date:</label>
+    <input type="date" class="form-control" id="prjDate"
+    placeholder="Enter Assignment Date" name="prjDate">
+    </div>
+    
+    <div class="form-group">
+    <label for="prjDed">Deadline:</label>
+    <input type="date" class="form-control" id="prjDed"
+    placeholder="Enter Deadline" name="prjDed">
+    </div>
+
+<div class="form-group text-center" id="but">
+<input type="button" class="btn btn-primary" id="save" value="Save"
+onclick="saveData()" disabled>
+
+<input type="button" class="btn btn-primary" id="change" value="Update"
+onclick="changeData()" disabled>
+
+<input type="button" class="btn btn-primary" id="reset" value="Reset"
+onclick="resetData()" disabled>
+</div>
+</form>
+</div>
+    
+    <script type="text/javascript" src="Project_Management.js"></script>
+</body>
+</html>
